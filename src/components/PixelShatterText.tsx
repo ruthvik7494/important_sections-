@@ -36,7 +36,7 @@ const PixelShatterText: React.FC<PixelShatterTextProps> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particles = useRef<Particle[]>([]);
-  const animationFrameId = useRef<number>();
+  const animationFrameId = useRef<number | null>(null);
   const mouse = useRef({ x: 0, y: 0 });
   const isVisibleRef = useRef(true);
 
