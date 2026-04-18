@@ -1,0 +1,172 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.05) 0px, transparent 50%);
+  min-height: 80vh;
+}
+
+.contactCard {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 
+    0 1px 3px 0 rgba(0, 0, 0, 0.1), 
+    0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  border: 1px solid #f1f5f9;
+}
+
+.contactHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contactHeader h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1e293b;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.contactHeader p {
+  color: #64748b;
+  font-size: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputField label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.inputField input,
+.inputField textarea {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #1e293b;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.inputField input::placeholder,
+.inputField textarea::placeholder {
+  color: #94a3b8;
+}
+
+.inputField input:focus,
+.inputField textarea:focus {
+  background: white;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  outline: none;
+}
+
+.errorMsg {
+  color: #ef4444;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  background: #1e293b;
+  color: white;
+  padding: 0.9rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.submitBtn:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.submitBtn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.feedback {
+  padding: 1.5rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  animation: slideUp 0.4s ease;
+}
+
+.feedback.success {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.feedback.error {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .contactCard {
+    padding: 2.5rem 1.5rem;
+    border-radius: 0;
+  }
+  
+  .inputGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contactHeader h2 {
+    font-size: 2.25rem;
+  }
+}
