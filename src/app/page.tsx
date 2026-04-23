@@ -6,6 +6,7 @@ import MaterialYouSlider from "@/components/MaterialYouSlider";
 import CompactCategorySlider from "@/components/CompactCategorySlider";
 import PanoramaSlider from "@/components/PanoramaSlider";
 import PerspectiveSlider from "@/components/PerspectiveSlider";
+import ProductShowcase from "@/components/ProductShowcase";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MaterialYouSlider />
       <CompactCategorySlider />
       <PanoramaSlider />
+      <ProductShowcase />
       <PerspectiveSlider />
       <ContactForm />
     </main>

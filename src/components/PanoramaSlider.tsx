@@ -49,7 +49,7 @@ const PanoramaSlider = () => {
         >
           <span className="text-orange-500 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Immersive View</span>
           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter">
-            Panoramic <span className="text-gray-600">Industries</span>
+            Panoramic <span className="text-gray-600">Industries 05</span>
           </h2>
         </motion.div>
       </div>

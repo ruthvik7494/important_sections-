@@ -46,7 +46,7 @@ const CompactCategorySlider = () => {
     <section className="compact-slider-section w-full py-16 bg-[#080808] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-8 flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-white tracking-tight">Interactive Showcase</h2>
+          <h2 className="text-2xl font-bold text-white tracking-tight">Interactive Showcase 04</h2>
           <p className="text-gray-500 text-sm">Click any category to focus and expand</p>
         </div>
         <div className="flex gap-2">
