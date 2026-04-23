@@ -47,7 +47,7 @@ const MaterialYouSlider = () => {
           Modern Solutions
         </motion.span>
         <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
-          Material <span className="text-gray-500 font-light italic text-2xl md:text-3xl">Experience</span>
+          Material <span className="text-gray-500 font-light italic text-2xl md:text-3xl">Experience 03</span>
         </h2>
       </div>
 

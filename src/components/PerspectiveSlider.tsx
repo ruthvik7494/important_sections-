@@ -37,7 +37,7 @@ const PerspectiveSlider = () => {
   return (
     <section className="perspective-slider-section w-full py-24 bg-[#0a0a0a] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
-        <h2 className="text-3xl font-bold text-white mb-2">Perspective View</h2>
+        <h2 className="text-3xl font-bold text-white mb-2">Perspective View 07</h2>
         <p className="text-gray-500">A unique look into our diverse industries</p>
       </div>
 

@@ -31,6 +31,10 @@ const categories = [
 const SuperFlowSection = () => {
   return (
     <section className="super-flow-section w-full h-screen relative bg-black overflow-hidden">
+      {/* Floating Heading */}
+      <div className="absolute top-20 left-10 z-30 pointer-events-none">
+        <h2 className="text-white/20 text-4xl md:text-6xl font-bold tracking-tighter uppercase italic">Logistics Flow 02</h2>
+      </div>
       <Swiper
         grabCursor={true}
         effect={'fade'}

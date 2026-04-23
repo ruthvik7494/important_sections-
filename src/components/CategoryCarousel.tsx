@@ -54,7 +54,7 @@ const CategoryCarousel = () => {
             <span className="text-orange-500 uppercase tracking-[0.2em] text-xs font-bold">Our Expertise</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
-            Industry <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose-400">Categories</span>
+            Industry <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose-400">Categories 01</span>
           </h2>
           <p className="text-gray-400 max-w-xl text-base leading-relaxed">
             We bridge the gap between quality production and global demand with our carefully curated category-specific solutions.
